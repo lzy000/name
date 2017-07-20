@@ -1,0 +1,62 @@
+.clear:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.loan{
+	width: 324px;
+	height: 400px;
+	background: #525a5a;
+	border: 1px solid #525a5a;
+}
+.loan .content{
+	width: 280px;
+	margin: 0 auto;
+}
+.loan h2{
+	color: white;
+    margin: 26px 0 18px 0;
+}
+.loan .cont_num{
+	
+}
+.loan .cont_num p.num_l{
+	 font-size: 16px;  color: white; float: left; font-size: 12px;
+}
+.loan .cont_num p.num_r{
+	 font-size: 16px; color: white; float: right; font-size: 12px;
+}
+.ipt1{
+	background: white; margin-top: 8px; margin-bottom: 10px; position: relative;
+}
+.ipt1 .ipt_top{
+	width: 238px; height: 40px;  float: left; line-height: 40px; 
+}
+.ipt1 .ipt_top p.ll{
+	float: left; margin-left: 6px;
+}
+.ipt1 .ipt_top p.rr{
+	float: right;  margin-right: 6px;
+}
+.ipt1 .slide{
+	width: 40px; height: 40px; float: left;  
+	text-align: center; line-height: 40px;  border-left: 1px black solid ;
+}
+.seach{
+	width: 100% ; height: 40px; background: #0094ef;
+	text-align: center; line-height: 40px;
+}
+.seach a{
+	color: white; font-size: 16px;
+}
+
+.ipt1 ul{
+	width: 280px; position: absolute; top: 42px; background: white;
+	z-index: 666;  display: none;
+}
+
+.ipt1 ul li{
+	width: 270px; height: 30px; line-height: 30px;
+	padding-left: 10px;
+}
